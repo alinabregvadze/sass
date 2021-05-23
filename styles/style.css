@@ -1,4 +1,7 @@
-body {
-  background-color: red;
-  width: 700px;
-  height: 100px; }
+@import url(basic/reset.scss);
+@import url(basic/fonts.scss);
+@import url(modules/variables.scss);
+@import url(modules/class.scss);
+@import url(modules/mixin.scss);
+@import url(pages/main.scss);
+@import url(pages/profile.scss);
